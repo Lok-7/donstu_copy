@@ -20003,11 +20003,11 @@ $(document).ready(function () {
 });
 
 $('.eng-icon-container .eng-icon').hover(function () {
-    $(this).attr('src', "/local/templates/dstu_en_tmp/img/en_white.png");
+    $(this).attr('src', "detail_files/en_white.png");
 });
 
 $('.eng-icon-container .eng-icon').mouseleave(function () {
-    $(this).attr('src', "/local/templates/dstu_en_tmp/img/DSTU_lang.png");
+    $(this).attr('src', "detail_files/DSTU_lang.png");
 });
 
 
@@ -20846,11 +20846,11 @@ $(document).ready(function () {
 });
 
 $('.eng-icon-container .eng-icon').hover(function () {
-    $(this).attr('src', "/local/templates/dstu_en_tmp/img/en_white.png");
+    $(this).attr('src', "detail_files/en_white.png");
 });
 
 $('.eng-icon-container .eng-icon').mouseleave(function () {
-    $(this).attr('src', "/local/templates/dstu_en_tmp/img/DSTU_lang.png");
+    $(this).attr('src', "detail_files/DSTU_lang.png");
 });
 
 
