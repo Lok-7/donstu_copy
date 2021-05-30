@@ -18913,5 +18913,7 @@ only screen and (min-device-pixel-ratio: 1.5) {
     color: #202931 !important;
     background: #f6d63d
 }
-
+summary {
+    cursor: pointer;
+}
 /*# sourceMappingURL=style.css.map */
