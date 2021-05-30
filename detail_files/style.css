@@ -18916,4 +18916,11 @@ only screen and (min-device-pixel-ratio: 1.5) {
 summary {
     cursor: pointer;
 }
+.video{
+    width: 100%;
+    height: auto;
+}
+.video video{
+    width: 100%;
+}
 /*# sourceMappingURL=style.css.map */
