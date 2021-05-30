@@ -292,10 +292,10 @@ ul.top_menu_ul li {
 /* Start:/local/templates/new_menu/template_styles.css?16069350056926*/
 @font-face {
     font-family: "Iconostas";
-    src: url(/fonts/iconostas-symbiosislab.eot);
-    src: url(/fonts/iconostas-symbiosislab#iefix.eot) format('embedded-opentype'),
-        url(/fonts/iconostas-symbiosislab.woff) format('woff'),
-        url(/fonts/iconostas-symbiosislab.ttf) format('truetype');
+    src: url(fonts/iconostas-symbiosislab.eot);
+    src: url(fonts/iconostas-symbiosislab#iefix.eot) format('embedded-opentype'),
+        url(fonts/iconostas-symbiosislab.woff) format('woff'),
+        url(fonts/iconostas-symbiosislab.ttf) format('truetype');
     font-weight: normal;
     font-style: normal;
 }

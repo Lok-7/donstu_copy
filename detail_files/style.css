@@ -1367,7 +1367,7 @@ label:hover:before {
     width: 50px;
     height: 50px;
     cursor: pointer;
-    background: url(/local/templates/new_menu/img/devprog/left.png);
+    background: url(https://donstu.ru/local/templates/new_menu/img/devprog/left.png);
     border-right: 1px solid #f8de64
 }
 
@@ -1376,7 +1376,7 @@ label:hover:before {
     width: 50px;
     height: 50px;
     cursor: pointer;
-    background: url(/local/templates/new_menu/img/devprog/right.png)
+    background: url(https://donstu.ru/local/templates/new_menu/img/devprog/right.png)
 }
 
 .new-gallery-slider .swiper-container .swiper-wrapper {
@@ -1467,7 +1467,7 @@ label:hover:before {
     padding: 112px 40px 20px 72px;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
-    background-image: url(/local/templates/new_menu/img/devprog/servicename-bg.jpg);
+    background-image: url(https://donstu.ru/local/templates/new_menu/img/devprog/servicename-bg.jpg);
     -webkit-background-size: cover;
     background-size: cover
 }
@@ -2078,7 +2078,7 @@ label:hover:before {
     flex: none;
     -webkit-background-size: cover;
     background-size: cover;
-    background-image: url(/local/templates/new_menu/img/devprog/students.jpg)
+    background-image: url(https://donstu.ru/local/templates/new_menu/img/devprog/students.jpg)
 }
 
 .direction-page__textpic .text {
@@ -2142,12 +2142,12 @@ label:hover:before {
 }
 
 .new-video-slider .wrapper .navbar .left {
-    background: url(/local/templates/new_menu/img/devprog/left.png);
+    background: url(https://donstu.ru/local/templates/new_menu/img/devprog/left.png);
     border-right: 1px solid #fff
 }
 
 .new-video-slider .wrapper .navbar .right {
-    background: url(/local/templates/new_menu/img/devprog/right.png)
+    background: url(https://donstu.ru/local/templates/new_menu/img/devprog/right.png)
 }
 
 .new-video-slider .video-slider {
@@ -2185,7 +2185,7 @@ label:hover:before {
     height: 66px;
     -webkit-background-size: cover;
     background-size: cover;
-    background-image: url(/local/templates/new_menu/img/devprog/play-btn.png);
+    background-image: url(https://donstu.ru/local/templates/new_menu/img/devprog/play-btn.png);
     cursor: pointer
 }
 
