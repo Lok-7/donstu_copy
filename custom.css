@@ -1,0 +1,63 @@
+.timeline {
+  display: flex;
+  justify-content: start;
+  align-items: flex-start;
+  width: max-content;
+  position: relative;
+}
+.timeline-wrapper {
+  padding: 20px 0 60px;
+}
+.timeline__line {
+  position: absolute;
+  top: 15px;
+  transform: translateY(-50%);
+  left: 0;
+  right: 0;
+  height: 2px;
+  border: 3px solid white;
+}
+.timeline__point {
+  cursor: pointer;
+  position: relative;
+  text-align: center;
+  z-index: 4;
+  --point-color: #0079b2;
+}
+.timeline__point:hover, .timeline__point_active {
+  transition: color 0.2s ease-in, background-color 0.2s ease-in;
+  --point-color:#f6d63d;
+}
+.timeline__label {
+  transition: inherit;
+  font: 24px "Open Sans Extra", sans-serif;
+  margin-top: 15px;
+  color: var(--point-color);
+}
+.timeline__dot {
+  transition: inherit;
+  display: block;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: var(--point-color);
+}
+
+.detail__desc {
+  display: none;
+}
+.detail__desc_open {
+  display: block;
+}
+
+.dragscroll {
+  overflow: hidden;
+  cursor: grab;
+}
+@media (max-width: 1200px) {
+  .dragscroll {
+    overflow: scroll;
+  }
+}
+
+/*# sourceMappingURL=custom.css.map */
