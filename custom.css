@@ -56,6 +56,9 @@
   display: block;
   animation: fadeIn 0.4s ease-in;
 }
+.detail__desc .text-publishing, .detail__desc .desc-publishing {
+  color: inherit !important;
+}
 
 @keyframes fadeIn {
   0% {
