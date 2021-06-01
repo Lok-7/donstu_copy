@@ -18913,14 +18913,4 @@ only screen and (min-device-pixel-ratio: 1.5) {
     color: #202931 !important;
     background: #f6d63d
 }
-summary {
-    cursor: pointer;
-}
-.video{
-    width: 100%;
-    height: auto;
-}
-.video video{
-    width: 100%;
-}
 /*# sourceMappingURL=style.css.map */

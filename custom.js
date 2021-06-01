@@ -1,8 +1,10 @@
+const timeline =  document.querySelector('.timeline');
 const years = document.querySelectorAll(".timeline__point");
 // пропорциональность таймлайна
-const unit = 30;
+const unit = getComputedStyle(timeline).getPropertyValue('--unit-size');
+
 for (year of years) {
-    year.style.marginRight = year.dataset.distance * unit + "px";
+    year.style.marginRight = `calc(${year.dataset.distance} * var(--unit-size))`;
 }
 for(point of years){
     point.addEventListener('click', timelineDetail)

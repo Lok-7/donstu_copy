@@ -4,6 +4,12 @@
   align-items: flex-start;
   width: max-content;
   position: relative;
+  --unit-size: 23px;
+}
+@media (max-width: 560px) {
+  .timeline {
+    --unit-size: 10px;
+  }
 }
 .timeline-wrapper {
   padding: 20px 0 60px;
@@ -48,8 +54,17 @@
 }
 .detail__desc_open {
   display: block;
+  animation: fadeIn 0.4s ease-in;
 }
 
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 .dragscroll {
   overflow: hidden;
   cursor: grab;
@@ -58,6 +73,19 @@
   .dragscroll {
     overflow: scroll;
   }
+}
+
+summary {
+  cursor: pointer;
+}
+
+.video {
+  width: 100%;
+  height: auto;
+}
+
+.video video {
+  width: 100%;
 }
 
 /*# sourceMappingURL=custom.css.map */
