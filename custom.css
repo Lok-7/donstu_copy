@@ -14,7 +14,9 @@
 .timeline-wrapper {
   padding: 20px 0 60px;
 }
-.timeline__line {
+.timeline::before {
+  content: "";
+  display: block;
   position: absolute;
   top: 15px;
   transform: translateY(-50%);
@@ -29,9 +31,9 @@
   text-align: center;
   z-index: 4;
   --point-color: #0079b2;
+  transition: color 0.2s ease-in, background-color 0.2s ease-in;
 }
 .timeline__point:hover, .timeline__point_active {
-  transition: color 0.2s ease-in, background-color 0.2s ease-in;
   --point-color:#f6d63d;
 }
 .timeline__label {
@@ -91,7 +93,8 @@ summary {
   width: 100%;
 }
 
-.info-person_bckg-none{
-  background-color: white!important;
+.info-person_bckg-none {
+  background-color: white !important;
 }
+
 /*# sourceMappingURL=custom.css.map */

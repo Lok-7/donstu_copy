@@ -1,12 +1,3 @@
-// .container {
-//     margin: 0 auto;
-//     max-width: 800px;
-//     cursor: grab;
-//     background: #e5e5e5;
-//     height: 100vh;
-//     overflow-x: hidden;
-// }
-
 .timeline {
     display: flex;
     justify-content: start;
@@ -20,7 +11,9 @@
     &-wrapper{
         padding: 20px 0 60px;
     }
-    &__line {
+    &::before {
+        content: '';
+        display: block;
         position: absolute;
         top: 15px;
         transform: translateY(-50%);
@@ -36,9 +29,9 @@
         text-align: center;
         z-index: 4;
         --point-color: #0079b2;
+        transition: color 0.2s ease-in, background-color 0.2s ease-in;
         
         &:hover, &_active{
-            transition: color 0.2s ease-in, background-color 0.2s ease-in;
             --point-color:#f6d63d;
         }
         
@@ -98,4 +91,7 @@ summary {
 }
 .video video{
     width: 100%;
+}
+.info-person_bckg-none{
+    background-color: white!important;
 }
